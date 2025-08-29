@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Health City Project: A DevOps Hackathon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 960px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            border-bottom: 5px solid #007bff;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-style: italic;
+        }
+        .section {
+            padding: 20px;
+            margin: 20px 0;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            color: #007bff;
+            text-align: center;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+        }
+        .section img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 20px auto;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: #e9e9e9;
+            margin: 10px 0;
+            padding: 10px;
+            border-left: 5px solid #007bff;
+        }
+        .devops-section {
+            background-color: #e9f5ff;
+        }
+        .devops-section li {
+            background: #d1eaff;
+            border-left: 5px solid #0056b3;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>The Health City Project</h1>
+            <p>A Hackathon Project on Public Health & DevOps</p>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <section class="section">
+            <h2>Introduction: Our Project's Mission</h2>
+            <p>
+                Our project addresses four critical public health challenges using a visual diorama as a prototype for real-world solutions. We aimed to apply the core principles of DevOps—collaboration, automation, and continuous improvement—to tackle these issues.
+            </p>
+            <img src="https://i.ibb.co/68mY70b/unnamed.jpg" alt="Our Full Diorama Project">
+        </section>
+
+        <section class="section">
+            <h2>Screen Time: How Much Is Too Much?</h2>
+            <p>
+                Excessive screen time is a growing issue linked to several health problems. Our diorama highlights the negative effects and proposes simple, actionable tips.
+            </p>
+            <img src="https://i.ibb.co/1J3yv0d/Screenshot-20250829-120700.jpg" alt="Screen Time Diorama Section">
+            <ul>
+                <li><strong>The Problem:</strong> Headaches, eye strain, poor sleep, and stress.</li>
+                <li><strong>Our Solutions:</strong>
+                    <ul>
+                        <li>The 20-20-20 Rule</li>
+                        <li>Digital Detox</li>
+                        <li>Limited Screen Time</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Fast Food vs. Homemade Food</h2>
+            <p>
+                This section visually compares the health impacts of fast food and homemade food, emphasizing the importance of mindful eating.
+            </p>
+            <img src="https://i.ibb.co/Wc6q7w0/file-000000006e5c61f58eaa91fbcfedc14e.jpg" alt="Fast Food vs. Homemade Food Diorama Section">
+            <ul>
+                <li><strong>Fast Food:</strong> High sugar, high fat, obesity, and diabetes.</li>
+                <li><strong>Homemade Food:</strong> Provides vitamins, energy, and boosts immunity.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Ambulance Delay: Every Minute Matters</h2>
+            <p>
+                We highlighted how traffic congestion can severely delay emergency services, risking patients' lives during the critical "Golden Hour."
+            </p>
+            <img src="https://i.ibb.co/W214j8k/file-00000000779c61f7af30c4fb307446a5.jpg" alt="Ambulance Delay Diorama Section">
+            <ul>
+                <li><strong>The Problem:</strong> Delayed ambulances mean patients are in danger.</li>
+                <li><strong>Our Solutions:</strong>
+                    <ul>
+                        <li>Better Traffic Management</li>
+                        <li>Emergency Lanes</li>
+                        <li>More Ambulances</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Fake Medicines: Real Danger</h2>
+            <p>
+                This part of our project raises awareness about counterfeit drugs and provides simple safety tips for the public.
+            </p>
+            <img src="https://i.ibb.co/7j5h2m2/file-000000000f8c61fa960b70017a90f624.jpg" alt="Fake Medicines Diorama Section">
+            <ul>
+                <li><strong>The Problem:</strong> Fake medicines can be harmful and are often difficult to spot.</li>
+                <li><strong>Our Solutions (The 20-20-20 Rule):</strong>
+                    <ul>
+                        <li>Check Expiry Date</li>
+                        <li>Buy From Trusted Stores</li>
+                        <li>Don't Risk Your Health</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section devops-section">
+            <h2>Applying DevOps Principles</h2>
+            <p>
+                Our diorama wasn't just a static display; it was a prototype. The entire process of creating it demonstrated core DevOps principles.
+            </p>
+            <ul>
+                <li><strong>Collaboration:</strong> We worked as a team, using version control concepts to manage different parts of the project.</li>
+                <li><strong>Automation:</strong> We envisioned how a CI/CD pipeline could automatically deploy updates to software that solves these problems.</li>
+                <li><strong>Continuous Improvement:</strong> Our project is a foundation that can be continuously improved with more data and user feedback.</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Created by Your Group Name for the Hackathon</p>
+    </footer>
+
+</body>
+</html>
